@@ -9,3 +9,5 @@ def laberinto(dimension,muros):
                 fila.append(' ')
         laberinto.append(fila)
     return laberinto
+for i in laberinto:
+    print(''.join(i))
