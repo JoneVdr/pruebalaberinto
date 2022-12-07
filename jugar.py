@@ -17,4 +17,4 @@ def recorre_laberinto(laberinto):
             movimientos.append('No hay salida')
     return movimientos
 
-print('Solución: ', recorre_laberinto(lab))
+print('Solución: ', recorre_laberinto)
